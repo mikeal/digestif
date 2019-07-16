@@ -1,0 +1,32 @@
+{
+  "name": "digestish",
+  "version": "0.0.0",
+  "main": "nodejs.js",
+  "browser": "browser.js",
+  "scripts": {
+    "test": "aegir test -t node browser",
+    "pretest": "aegir lint"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)",
+  "dependencies": {
+    "bytesish": "0.0.1"
+  },
+  "devDependencies": {
+    "aegir": "^20.0.0",
+    "tsame": "^2.0.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeal/digestish.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/digestish/issues"
+  },
+  "homepage": "https://github.com/mikeal/digestish#readme",
+  "description": ""
+}

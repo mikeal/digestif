@@ -28,5 +28,5 @@
     "url": "https://github.com/mikeal/digestif/issues"
   },
   "homepage": "https://github.com/mikeal/digestif#readme",
-  "description": ""
+  "description": "Cross-Platform SHA2 hash digests."
 }

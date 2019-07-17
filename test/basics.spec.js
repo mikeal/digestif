@@ -16,3 +16,13 @@ test('all sha hashes', async () => {
   const b = await digest('hello world')
   same(bytes.toString(b, 'base64'), b64.sha256)
 })
+
+test('test bad algorith', async () => {
+  let b
+  try {
+    b = await digest('hello world', 'fail')
+  } catch (e) {
+    same(e.message, 'Unsupported algorithm')
+  }
+  assert(!b)
+})

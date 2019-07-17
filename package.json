@@ -11,7 +11,7 @@
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
   "license": "(Apache-2.0 AND MIT)",
   "dependencies": {
-    "bytesish": "0.0.1"
+    "bytesish": "^0.2.0"
   },
   "devDependencies": {
     "aegir": "^20.0.0",

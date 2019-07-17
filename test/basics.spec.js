@@ -14,6 +14,7 @@ const b64 = {
 }
 test('all sha hashes', async () => {
   const b = await digest('hello world')
+  assert(b instanceof ArrayBuffer)
   same(bytes.toString(b, 'base64'), b64.sha256)
 })
 

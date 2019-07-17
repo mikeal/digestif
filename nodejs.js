@@ -8,5 +8,6 @@ const s = _s => {
 }
 
 module.exports = (_from, algo = 'sha256') => new Promise(resolve => {
-  return resolve(crypto.createHash(s(algo)).update(bytes.native(_from)).digest())
+  const buffer = crypto.createHash(s(algo)).update(bytes.native(_from)).digest()
+  return resolve(bytes.arrayBuffer(buffer))
 })

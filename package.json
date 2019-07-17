@@ -1,6 +1,6 @@
 {
-  "name": "digestish",
-  "version": "0.0.0-dev",
+  "name": "digestif",
+  "version": "0.0.0",
   "main": "nodejs.js",
   "browser": "browser.js",
   "scripts": {
@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikeal/digestish.git"
+    "url": "git+https://github.com/mikeal/digestif.git"
   },
   "bugs": {
-    "url": "https://github.com/mikeal/digestish/issues"
+    "url": "https://github.com/mikeal/digestif/issues"
   },
-  "homepage": "https://github.com/mikeal/digestish#readme",
+  "homepage": "https://github.com/mikeal/digestif#readme",
   "description": ""
 }

@@ -1,4 +1,4 @@
-# digestish
+# digestif
 
 Cross-platform SHA hash digests.
 
@@ -9,6 +9,7 @@ It also works in Node.js but still restricts itself to the hash
 types supported in the browser without external dependencies.
 
 ```javascript
+const digest = require('digestif')
 let hash = digest('hello world') // defaults to sha256
 assert(hash instanceof ArrayBuffer)
 

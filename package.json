@@ -1,10 +1,10 @@
 {
   "name": "digestif",
-  "version": "0.0.0",
+  "version": "0.0.0-dev",
   "main": "nodejs.js",
   "browser": "browser.js",
   "scripts": {
-    "test": "nyc --check-coverage --branches 100 --functions 100 --lines 100 aegir test -t node browser",
+    "test": "hundreds aegir test -t node browser",
     "pretest": "aegir lint"
   },
   "keywords": [],
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "aegir": "^20.0.0",
+    "hundreds": "0.0.1",
     "tsame": "^2.0.1"
   },
   "directories": {

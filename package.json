@@ -1,6 +1,6 @@
 {
   "name": "digestif",
-  "version": "0.0.0-dev",
+  "version": "0.1.4",
   "main": "nodejs.js",
   "browser": "browser.js",
   "scripts": {

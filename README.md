@@ -1,5 +1,7 @@
 # digestif
 
+![2911](https://img.shields.io/badge/compiled%20bundle-3k-brightgreen) ![1159](https://img.shields.io/badge/gzipped%20bundle-1k-brightgreen)
+
 Cross-platform SHA2 hash digests.
 
 This library produces digest hashes for any binary type or string
